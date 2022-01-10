@@ -1,0 +1,118 @@
+.benner {
+  background: url(foto.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 24%;
+  padding-bottom: 24%;
+  color: white;
+}
+.tim img {
+  width: 250px;
+  border: 10px solid #cccc;
+}
+.client img {
+  height: auto;
+  max-height: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  width: 100vw;
+  flex-wrap: wrap;
+}
+.item {
+  height: 270px;
+  width: 200px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+.item1 .img {
+  background-image: url("SLIDE\ 1.jpg");
+  background-size: cover;
+}
+.item2 .img {
+  background-image: url("slide\ 2.jpg");
+  background-size: cover;
+}
+.item3 .img {
+  background-image: url("slide.3.jpg");
+  background-size: cover;
+}
+.item4 .img {
+  background-image: url("slide\ 4.jpg");
+  background-size: cover;
+}
+.item5 .img {
+  background-image: url("slide\ 5.jpg");
+  background-size: cover;
+}
+.item6 .img {
+  background-image: url("slide\ 6.jpg");
+  background-size: cover;
+}
+.item7 .img {
+  background-image: url("slide\ 7.jpg");
+  background-size: cover;
+}
+.item8 .img {
+  background-image: url("slide\ 8.jpg");
+  background-size: cover;
+}
+.TITLE {
+  background-color: aqua;
+  height: 20px;
+  width: 200px;
+  text-align: center;
+}
+.price {
+  background-color: sandybrown;
+  height: 20px;
+  width: 200px;
+}
+.buy {
+  background-color: rgb(194, 211, 38);
+  width: fit-content;
+  text-align: center;
+  margin: 0px auto;
+  padding: 6px 15px;
+}
+.item:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  box-shadow: 7px 10px rgba(0, 0, 0, 0.2);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+.kontak {
+  background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat center center;
+  overflow: hidden;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
+.section {
+  padding-top: 5rem;
+}
+h4 {
+  color: black;
+}
